@@ -518,3 +518,41 @@ button:active {
         font-size: 1rem;
     }
 }
+
+/* ===== ARREGLO DEFINITIVO PARA CELULAR ===== */
+
+@media (max-width: 600px) {
+
+    html,
+    body {
+        width: 100%;
+        min-height: 100%;
+        height: auto !important;
+        overflow-x: hidden !important;
+        overflow-y: auto !important;
+    }
+
+    .pantalla {
+        width: 100%;
+        min-height: 100dvh !important;
+        height: auto !important;
+        overflow: visible !important;
+        box-sizing: border-box;
+        padding: 20px 15px 40px;
+    }
+
+    .contenido,
+    .contenido-inicio {
+        width: 100%;
+        max-width: 100%;
+        height: auto !important;
+        max-height: none !important;
+        box-sizing: border-box;
+    }
+
+    .galeria-contenido {
+        height: auto !important;
+        max-height: none !important;
+        overflow: visible !important;
+    }
+}
